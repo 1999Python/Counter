@@ -1,0 +1,254 @@
+  table, th, td {
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.233), rgba(255, 255, 0, 0.349))
+  }
+  table {
+    width: 70%;
+    margin-top: 2em;
+  }
+  
+  th {
+    height: 70%;
+  }
+
+
+
+.section2{
+
+  margin-bottom: 1.5em;
+  margin-bottom: 1.55em;
+}
+.cityPara{
+  display: inline;
+  background-color: #f3cfcf;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+  
+.Abu{
+  background-color: #f3cfcf;
+  display: inline;
+  font-size: 1.7em;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+margin-left: 1.6em;
+}
+
+
+
+
+.city{
+  display: block;
+  margin-left: 3em;
+  padding-right: 1em;
+  margin-top: 2em;
+  width: 65%;
+  
+}
+
+
+.section3{
+text-align: center;
+margin-top: 5em;
+}
+.arabic{
+  background-color: #f3cfcf; 
+  display: flex;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+.Ara{
+  background-color: #f3cfcf;
+  display: inline;
+  font-size: 1.7em;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  margin-right: 2.9em;
+
+  
+}
+.section4{
+ 
+margin-bottom: 1.5em;
+}
+
+h2{
+  text-align: justify;
+  display: inline-block;
+  background-color: #f3cfcf;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-size: 1.4em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+
+  font-size: 4.2em;
+  font-family: sans-serif;
+  text-shadow: -2px -2px 0 rgb(206, 132, 212), 2px -2px 0 rgb(230, 192, 255), -2px 2px 0 rgb(206, 132, 212), 2px 2px 0 rgb(206, 132, 212);
+  color: black;
+  
+  padding-left: 0.8em;
+  padding-right: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; 
+}
+
+
+.image1{
+  width: 60%;
+  margin-left: 3.5em;
+  border-radius: 40%;
+  padding-left: 0.5em;
+  padding-top: 1.5em;
+  
+  
+}
+
+.section5{
+  padding: 2em;
+  border-width: 1em;
+  margin-bottom: 0.2em;
+ margin-top: 0.1em;
+  border-radius: 1em; 
+}
+
+.subsect1{
+  display: flex;
+  background-color: #f3cfcf;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+  
+
+}
+
+.subsect2{
+  display: flex;
+  background-color: #f3cfcf;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+  
+ 
+}
+.subsect3{
+  display: flex;
+  background-color: #f3cfcf;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top:1.5em;
+  padding-bottom: 1.5em;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  
+}
+
+.prob1, .prob2{
+  margin-right: 7.5em;
+  
+}
+
+h4{
+  text-align: center;
+  font-size: 2em;
+  background-color: #f3cfcf;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+   margin-left: 1em;
+  margin-right: 1em;
+}
+
+@media (min-width : 960px) {
+    
+    body{
+        background-color: #fff;
+    }
+    .section5{
+        display:flex;
+    }
+    .section2{
+
+      display: flex;
+    }
+    .section4{
+      
+      padding-left: 25em;
+    }
+    .section1{
+    padding-left: 0.1em;
+    padding-right: 0.5em;
+
+    }
+    h1{
+      margin-right: 0.2em;
+      margin-left: 5.1em;
+      padding-top: 2em;
+      padding-left: 0.1em;
+  padding-right: 0.5em;
+  
+  padding-bottom: 0.5em; 
+    }
+    .section1{
+  display: flex;
+}
+ .image1{
+  width: 30%;
+ 
+} 
+.city{
+width: 30%;
+}
+.cityPara{
+  width: 40%;
+height: 40%;
+  margin-top: 1.9em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-right: 30em;
+}
+}
+    
+}
+@media (max-width : 720px){
+
+}

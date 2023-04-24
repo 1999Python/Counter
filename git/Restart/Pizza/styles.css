@@ -1,0 +1,23 @@
+h1{
+    font-size: 4em;
+    text-align: center;
+   color: aliceblue;
+   border: 2px solid rgb(215, 237, 17);
+  outline-style: solid;
+  outline-color: red;
+  margin: 2em;
+}
+
+h3{
+    font-size: 2.5em;
+    color: antiquewhite;
+}
+p{
+    font-size: 1.8em;
+    color: beige;
+}
+footer{
+    font-size: 1.2em;
+    color: beige; 
+    text-align: center;
+}

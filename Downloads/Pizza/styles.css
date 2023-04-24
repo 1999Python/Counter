@@ -1,0 +1,233 @@
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: aliceblue;
+    border: 2px solid rgb(215, 237, 17);
+    outline-style: solid;
+    outline-color: red;
+    margin: 1em;
+}
+
+
+.h {
+    color: white;
+    -webkit-text-stroke: 2px rgb(208, 98, 94);
+}
+
+
+h1:hover {
+    background-color: rgb(212, 212, 122);
+}
+
+h3 {
+    font-size: 2.5em;
+    color: antiquewhite;
+}
+
+p {
+    font-size: 1.8em;
+    color: beige;
+}
+
+footer {
+    font-size: 1.2em;
+    color: beige;
+    text-align: center;
+}
+
+.pink {
+    color: aliceblue;
+}
+
+.piz {
+    display: flex;
+    padding: 2em;
+    border-width: 1em;
+    margin-bottom: 0.2em;
+    margin-top: 0.1em;
+    border-radius: 1em;
+}
+
+.instagram {
+    background: #3f729b;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 60px;
+    margin: 0.2em;
+
+}
+
+.Location {
+    margin-left: 0.7em;
+}
+
+.map {
+    margin-left: 2em;
+}
+
+.facebook {
+    background: #3b5998;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 60px;
+    margin: 0.2em;
+    margin-left: 0.6em;
+}
+
+.twitter {
+    background: #3b5998;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 60px;
+    margin: 0.2em;
+}
+
+.stickyicon-list a:hover {
+    color: #000;
+    width: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+}
+
+.form {
+    margin: 2em;
+}
+
+.form_h {
+    margin: 0.6em;
+}
+
+.order {
+    margin: 1em;
+}
+
+@media (max-width : 760px) {
+
+    .order{
+        font-size: em;
+        margin-left: 1em;
+    }
+
+    .Location {
+        margin-left: 0.7em;
+        width: 50px;
+        height: 50px;
+    }
+
+    .map {
+        position: relative;
+        height: 350px;
+        width: 350px;
+    }
+
+    .textbill {
+        color: rgb(62, 59, 54);
+        background-color: rgb(156, 201, 201);
+        border: #3376e9 solid;
+        font-size: larger;
+        margin: 2em;
+        padding: 2em;
+
+    }
+    .subs{
+        font-size: 1.3em;
+    }
+    .prices{
+        font-size: 0.9em;
+    }
+    .para{
+        font-size: 1em;
+    }
+    .piz{
+        display:grid;
+    }
+
+}
+
+
+
+@media (min-width : 960px) {
+
+    .smallPz .largePz {
+        float: right;
+        margin-right: 0.5em;
+        width: 70%;
+    }
+
+    .mediumPz {
+        float: left;
+        margin-right: 0.5em;
+        width: 70%;
+    }
+
+    .subsect1 {
+        
+        font-size: 0.9em;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 2em;
+        padding: 2em;
+        word-break: break-all;
+    }
+
+    p{  display: contents;
+          }
+
+    .subsect2 {
+        margin: 2em;
+        padding: 2em;
+        font-size: 0.9em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .subsect3 {
+        font-size: 0.9em;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 2em;
+        padding: 2em;
+    }
+
+    .subs {
+        font-size: 1.5em;
+        background-color: #abc5da;
+        display: inline;
+        margin-left: 1em;
+        padding: 0.5em;
+    }
+
+    .textbill {
+        font-size: 1.5em;
+        font-size: larger;
+        color: white;
+    }
+
+    .textbill:hover {
+        background-color: #d4af70c3;
+    }
+}
+
+.box {
+    padding: 0.75em;
+    border-radius: 0.5em;
+    border: 1px solid #ddd;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.warning {
+    color: orange;
+    font-weight: bold;
+}
+
+.danger {
+    color: crimson;
+    font-weight: bold;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 2em;
+}

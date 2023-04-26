@@ -1,22 +1,25 @@
-const myButton1 = document.querySelector(".button1");
-const myButton2 = document.querySelector(".button2");
-const valueDisplay1 = document.querySelector(".valueDisplay");
+let myButtonDec = document.getElementById("button_decrease");
 
-var counter = 0;
+        let myButtonInc = document.getElementById("button_increase");
+        
+        let valueDisplay1 = document.getElementById("valueDisplay");
 
-function plusMinus (){
+        let reset = document.getElementById("button_reset");
+        
+        let counter = 0;
+       
 
-    if(myButton2 === "+"){
-        counter++;
-    }
-else if(myButton1 === "-"){
-    counter--;
-}   
+        myButtonDec.addEventListener("click", ()=>{
+            counter = 0;
+            valueDisplay1.innerHTML = counter;
+        })
 
-myButton2.innerHTML = counter;
-myButton1.innerHTML = counter;
+        myButtonInc.addEventListener("click", ()=>{
+            counter++;
+            valueDisplay1.innerHTML = counter;
+        })
 
-}
-myButton1.addEventListener("click" ,plusMinus)
-myButton2.addEventListener("click" ,plusMinus)
-
+        reset.addEventListener("click", ()=>{
+           counter = 0;
+           valueDisplay1.innerHTML = counter;
+        })
